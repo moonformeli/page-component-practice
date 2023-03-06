@@ -1,0 +1,15 @@
+.siteName {
+  font-style: normal;
+  font-weight: 700;
+  line-height: 24px;
+  background: linear-gradient(
+    93.38deg,
+    #496f74 -3.47%,
+    #6e9195 35.61%,
+    #2d4f61 84.29%
+  );
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  text-fill-color: transparent;
+}
