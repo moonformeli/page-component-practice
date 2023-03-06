@@ -5,7 +5,12 @@ import styles from "./GNB.module.css";
 
 const GNB: React.FC = () => {
   return (
-    <section className="px-6 flex items-center justify-between">
+    <section
+      className={clsx(
+        styles.container,
+        "fixed top-10 flex items-center justify-between"
+      )}
+    >
       <span
         className={clsx(styles.siteName, "inline-block hover:cursor-pointer")}
       >
